@@ -6,6 +6,15 @@ body{
     color: #212121;
 }
 
+.header{
+    
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
 ul{
     list-style: none;
     padding:0;
@@ -20,17 +29,48 @@ ul{
     padding-right: 15px;
 }
 
-.wbname {
+.webstudio_header {
     font-family: 'Raleway', sans-serif;
-    text-align: left;
+ 
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
 
+    margin-right: 86px;
+
+    letter-spacing: 0.03em;   
+}
+
+.webstudio_footer{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color:#ffffff;
+    letter-spacing: 0.03em;
+}
+
+.webstudio_span{
+    color:#2196F3;
 }
 
 .link  {
-    color: teal;
+    color: #212121;
+    text-decoration: none;
 }
 .link:hover ,.link:focus{
     color: #2196F3;
+}
+
+.adress_class{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+    color: #757575;
 }
 
 .idea_p{
@@ -150,7 +190,9 @@ address{
     }
 
     .site_nav__item{
-        margin-right: 30px;
+        margin-right: 50px;
+        margin-top: 32;
+        margin-bottom: 32;
     }
 
 
@@ -159,3 +201,8 @@ address{
         display: flex;
         align-items: center;
     }
+
+footer{
+    background: #2F303A;
+    display: flex;
+}
