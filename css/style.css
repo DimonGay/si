@@ -8,202 +8,223 @@
 Убрать курсив Местоположения
 Мюсли: В backpic лучше сделать margin(текста) или добавить div + поставить размер(или просто поствить размер 
 или поменять на div и просто поставить размер)
+Приколы со списками в футере 
 */
-body{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: 0.03em;
-    color: #212121;
+body {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
-header{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
-.back_pic{
-    background: url(img/headpic.jpg);
-    background: rgba(47, 48, 58, 0.8);
+.back_pic {
+  background: rgba(47, 48, 58, 0.8);
+  background: url(../img/headpic.jpg);
 }
 
-ul{
-    list-style: none;
-    padding:0;
-    margin: 0;
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.container{
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .webstudio_header {
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    margin-right: 86px;    
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  margin-right: 86px;
 }
 
-.webstudio_footer{
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 26px;
-    color:#ffffff;
+.webstudio_footer {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #ffffff;
 }
 
-.webstudio_span{
-    color:#2196F3;
+.webstudio_span {
+  color: #2196f3;
 }
 
-.link  {
-    color: #212121;
-    text-decoration: none;
+.link {
+  color: #212121;
+  text-decoration: none;
 }
-.link:hover ,.link:focus{
-    color: #2196F3;
-}
-
-.app_link{
-    color: #ffffff;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center; 
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: grey;
-    border-radius:0px 0px 4px 4px;
+.link:hover,
+.link:focus {
+  color: #2196f3;
 }
 
-.link_position{
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    text-decoration:none;
-    color: #FFFFFF;
+.app_link {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: grey;
+  border-radius: 0px 0px 4px 4px;
 }
 
-.adress_class{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: #757575;
+.link_position {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #ffffff;
 }
 
-.idea_p{
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    color: #757575;
+.adress_class {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #757575;
+  margin-right: 0;
+  margin-left: auto;
 }
 
-.down_p{
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
-    text-align: center;
-    color: #757575;
+.idea_p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  color: #757575;
 }
 
-.buisness_h2{
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+.down_p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  color: #757575;
 }
 
-.button_usluga{
-    font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #817070;
+.buisness_h2 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
-.antena{
-    font-size: 14px;
-    line-height: 16px;
-    text-transform: uppercase;
+.button_usluga {
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #817070;
 }
 
-.zanyatie{
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
+.antena {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
 }
 
-.command_text{
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    color: #212121;
+.zanyatie {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
 }
 
-.command{
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
+.command_text {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #212121;
 }
 
-h3{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
+.command {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
 }
 
-.client{
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
+h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
 }
 
-address{
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
+.client {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
 }
 
-.site_nav{
-    display: flex;
-       
+address {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
 }
 
-.site_nav__item{
-    margin-right: 50px;
-    margin-top: 32;
-    margin-bottom: 32;
+.site_nav {
+  display: flex;
 }
 
-.k123{
-    display: flex;
-    align-items: center ;
+.site_nav__item {
+  margin-right: 50px;
+  margin-top: 32;
+  margin-bottom: 32;
 }
 
-.footer_flex{
-    margin-right: 50px;
-    margin-top: 32;
-    margin-bottom: 32;
+.site_nav__item:last-child {
+  margin-right: 0;
 }
 
-footer{
-    background: #2F303A;
-    
+.k123 {
+  display: flex;
+  align-items: center;
+}
+
+.niga {
+  display: flex;
+}
+.niga_item {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+}
+.niga_item:last-child {
+  margin-right: 0;
+}
+
+.team_container {
+  display: flex;
+}
+.footer_flex {
+  margin-right: 50px;
+  margin-top: 32;
+  margin-bottom: 32;
+}
+
+footer {
+  background: #2f303a;
 }
