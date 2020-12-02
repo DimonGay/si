@@ -216,9 +216,14 @@ address {
   margin-right: 0;
 }
 
-.team_container {
+.white {
   display: flex;
 }
+
+.white_item {
+  width: calc((100% - 60px) / 3);
+}
+
 .footer_flex {
   margin-right: 50px;
   margin-top: 32;
