@@ -1,15 +1,3 @@
-/*
-Убрать декорации на ссылках в разделе "Чем мы занимаемся" 
-Сделать флекс футера
-Сделать флекс нашей команды
-В хэдере настроить флекс
-Разобраться с ссылками
-В разделе "Чем мы занимемся" нужны Списки?
-Убрать курсив Местоположения
-Мюсли: В backpic лучше сделать margin(текста) или добавить div + поставить размер(или просто поствить размер 
-или поменять на div и просто поставить размер)
-Приколы со списками в футере 
-*/
 body {
   font-family: 'Roboto';
   font-style: normal;
@@ -44,6 +32,28 @@ ul {
   padding-right: 15px;
 }
 
+.antena_section{
+  padding-left: 215px;
+  padding-right: 215px;
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.zanyatie_section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.command_section{
+  padding-top: 94px;
+  background: #F5F4FA;
+}
+
+.client_section{
+  padding-top: 94px;
+
+}
+
 .webstudio_header {
   font-family: Raleway, sans-serif;
   font-weight: bold;
@@ -58,6 +68,7 @@ ul {
   font-weight: bold;
   font-size: 22px;
   line-height: 26px;
+  margin-top: 48px;
   color: #ffffff;
 }
 
@@ -68,11 +79,68 @@ ul {
 .link {
   color: #212121;
   text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.02em;
 }
 .link:hover,
 .link:focus {
   color: #2196f3;
 }
+
+
+.link_header{
+  color: #757575;
+  text-decoration: none;
+  margin-right: 30px;
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+.link_header:hover,
+.link_header:focus{
+  color: #2196f3;
+}
+
+.link_number{
+  color: #757575;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.02em;  
+}
+.link_number:hover,
+.link_number:focus{
+  color: #2196f3;
+}
+
+.link_footer{
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.link_footer:hover,
+.link_footer:focus{
+  color: #2196f3;
+}
+
+.telegram_button{
+  font-weight: 900;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  padding-right: 62px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.telegram_button:focus{
+  color: #757575;
+}
+
 
 .app_link {
   color: #ffffff;
@@ -83,6 +151,7 @@ ul {
   text-transform: uppercase;
   background-color: grey;
   border-radius: 0px 0px 4px 4px;
+  letter-spacing: 0.03em;
 }
 
 .link_position {
@@ -91,9 +160,10 @@ ul {
   line-height: 24px;
   text-decoration: none;
   color: #ffffff;
+  letter-spacing: 0.03em;
 }
 
-.adress_class {
+.address_header {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -110,15 +180,41 @@ ul {
   line-height: 24px;
   /* or 171% */
   color: #757575;
+  margin-top: 10;
+  margin-bottom: 0;
 }
 
-.down_p {
+.command_p {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   /* identical to box height */
   text-align: center;
   color: #757575;
+  margin-bottom: 16px;
+  margin-top: 10px;
+}
+
+.email_p{
+  font-weight: normal;
+  align-items: center;
+  letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px
+}
+
+.connect_p{
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 21;
+  margin-top: 56;
+  color: #FFFFFF;
 }
 
 .buisness_h2 {
@@ -129,16 +225,33 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  padding-left: 477px;
+  padding-right: 477px;
+  padding-bottom: 296px;
+  padding-top: 200px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.buisness_h3{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: left;
+  color: #212121;
 }
 
 .button_usluga {
   font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-  color: #817070;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 10px 32px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .antena {
@@ -151,18 +264,16 @@ ul {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0;
 }
 
 .command_text {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-}
-
-.command {
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0;
 }
 
 h3 {
@@ -170,12 +281,16 @@ h3 {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .client {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0;
 }
 
 address {
@@ -201,6 +316,21 @@ address {
 .k123 {
   display: flex;
   align-items: center;
+}
+
+.command_item {
+  width: calc((100% - 33px) / 4);
+  margin-right: 0;
+  margin-bottom: 24px;
+  margin-top: 16px;
+}
+
+.command_item:first-child{
+  margin-left: 32px;
+}
+
+.command_item:last-child{
+  margin-right: 0;
 }
 
 .buisness_item {
@@ -230,6 +360,13 @@ address {
 .white_item {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
+  margin-bottom: 94px;
+  
+  background: #FFFFFF;
+
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 
 .white_item:last-child {
@@ -242,16 +379,62 @@ address {
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  margin-bottom: 94px;
 }
 
 .client_item:last-child {
   margin-right: 0;
 }
 
+.footer_email_item{
+  margin-right: 16px;
+  
+}
+
+.footer_soc{
+  display: flex;
+}
+
+.footer_soc_item{
+  width: calc((100% - 30) / 4);
+  margin-right: 10px;
+}
+
+.footer_soc_item:last-child{
+  margin-right: 0;
+}
+
 .footer_flex {
+  margin-right: 94px;
+
+}
+
+.footer_flex_1 {
+  margin-right: 69px;
+
+  flex-direction: column;
+}
+
+.footer_flex_2 {
   margin-right: 50px;
-  margin-top: 32;
-  margin-bottom: 32;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.address_footer{
+  margin-top: 9px;
+  font-style: normal;
+}
+
+.address_number{
+  margin-top: 9px;
+  margin-bottom: 28px;
+  font-style: normal;
+}
+
+.address_map{
+  margin-top: 10px;
+  font-style: normal;
 }
 
 footer {
