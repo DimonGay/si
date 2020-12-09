@@ -115,13 +115,26 @@ ul {
   color: #2196f3;
 }
 
-.link_footer {
+.link_footer_1 {
   text-decoration: none;
   letter-spacing: 0.03em;
+  display: block;
   color: rgba(255, 255, 255, 0.6);
 }
-.link_footer:hover,
-.link_footer:focus {
+.link_footer_1:hover,
+.link_footer_1:focus {
+  color: #2196f3;
+}
+
+.link_footer_2 {
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
+}
+.link_footer_2:hover,
+.link_footer_2:focus {
   color: #2196f3;
 }
 
@@ -200,14 +213,16 @@ ul {
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  margin-top: 21px;
+  margin-bottom: 50px;
 }
 
 .connect_p {
   font-size: 14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 21;
-  margin-top: 56;
+  margin-bottom: 21px;
+  margin-top: 0;
   color: #ffffff;
 }
 
@@ -274,13 +289,23 @@ ul {
   margin-top: 0;
 }
 
-h3 {
+.h3_1 {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 10px;
+}
+
+.h3_2 {
+  font-size: 18px;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+  margin-bottom: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .client {
@@ -314,6 +339,62 @@ address {
 .k123 {
   display: flex;
   align-items: center;
+}
+
+.main_box {
+  display: flex;
+}
+
+.box_margin {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main_box_item {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-align: center;
+  margin-right: 8px;
+  width: calc((100% - 32px) / 5);
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 50px;
+  margin-top: 53px;
+}
+.main_box_item:last-child {
+  margin-right: 0;
+}
+
+.main_box_item:hover,
+.main_box_item:focus {
+  color: #ffffff;
+  background: #2196f3;
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.main_text_a {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-right: 22px;
+  margin-left: 22px;
+}
+
+.magazine {
+  display: flex;
+}
+.magazine_item {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: calc((100% - 30px) / 2);
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .s123_clients {
@@ -417,9 +498,17 @@ address {
 }
 
 .footer_flex_2 {
-  margin-right: 50px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-bottom: 50px;
+}
+
+.p_rassilka {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 56px;
+  margin-bottom: 0;
+  color: #ffffff;
 }
 
 .address_number {
