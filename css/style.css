@@ -1,12 +1,20 @@
 /** 
-
+  Сделать что бы страница(о)
 **/
+:root {
+  --primary_title_color: #121212;
+  --seconary_title_color: ;
+}
+/* h1 {
+  margin: 0;
+} */
 body {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--curent_title_color);
+  margin: 0;
 }
 
 header {
@@ -152,6 +160,7 @@ ul {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  align-self: center;
 }
 
 .telegram_button:focus {
@@ -248,7 +257,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: left;
-  color: #212121;
+  color: var(--primary_title_color);
 }
 
 .button_usluga {
@@ -354,6 +363,8 @@ address {
 
 .main_box {
   display: flex;
+  margin-bottom: 50px;
+  margin-top: 94px;
 }
 
 .box_margin {
@@ -364,16 +375,13 @@ address {
 .main_box_item {
   font-weight: 500;
   font-size: 16px;
-  letter-spacing: 0.03em;
-  color: #212121;
   text-align: center;
   margin-right: 8px;
-  width: calc((100% - 32px) / 5);
-  height: 38px;
   background: #f5f4fa;
   border-radius: 4px;
-  margin-bottom: 50px;
-  margin-top: 53px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 6px 22px;
 }
 .main_box_item:last-child {
   margin-right: 0;
@@ -388,17 +396,12 @@ address {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.main_text_a {
-  margin-top: 6px;
-  margin-bottom: 6px;
-  margin-right: 22px;
-  margin-left: 22px;
-}
-
 .magazine {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 94px;
 }
+
 .magazine_item {
   background: #ffffff;
   border: 1px solid #eeeeee;
@@ -407,6 +410,14 @@ address {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+}
+
+.magazine_item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.magazine_item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 
 .s123_clients {
@@ -511,6 +522,10 @@ address {
 
 .footer_flex_2 {
   margin-bottom: 50px;
+}
+
+.footer_last {
+  display: flex;
 }
 
 .p_rassilka {
