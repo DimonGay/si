@@ -6,6 +6,11 @@
   --seconary_title_color: #ffffff;
   --gray_title_color: #757575;
   --blue_title_color: #2196f3;
+  --rgba_06_color: rgba(255, 255, 255, 0.6);
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
@@ -76,7 +81,7 @@ ul {
   margin-bottom: 25px;
   margin-top: 24px;
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
 .webstudio_footer {
@@ -87,14 +92,15 @@ ul {
   line-height: 26px;
   margin-bottom: 0px;
   margin-top: 0;
-  color: var(--seconary_title_color)}
+  color: var(--seconary_title_color);
+}
 
 .webstudio_span {
   color: var(--blue_title_color);
 }
 
 .link {
-  color: #212121;
+  color: var(--primary_title_color);
   text-decoration: none;
   font-style: normal;
   letter-spacing: 0.02em;
@@ -131,7 +137,7 @@ ul {
   text-decoration: none;
   letter-spacing: 0.03em;
   display: block;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--rgba_06_color);
 }
 .link_footer_1:hover,
 .link_footer_1:focus {
@@ -142,7 +148,7 @@ ul {
   text-decoration: none;
   letter-spacing: 0.03em;
   display: block;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--rgba_06_color);
   margin-top: 9px;
 }
 .link_footer_2:hover,
@@ -221,7 +227,7 @@ ul {
   letter-spacing: 0.03em;
   font-size: 16px;
   line-height: 30px;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--rgba_06_color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -229,7 +235,6 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
   margin-right: 12px;
-  
 }
 
 .connect_p {
@@ -394,7 +399,6 @@ address {
 .main_box_item:last-child {
   margin-right: 0;
 }
-
 .main_box_item:hover,
 .main_box_item:focus {
   color: var(--seconary_title_color);
@@ -402,6 +406,10 @@ address {
   /* shadow-middle */
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+/* Undo p margin */
+.link_main {
+  margin: 0;
 }
 
 .magazine {
@@ -574,4 +582,8 @@ footer {
   background: var(--blue_title_color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+
+.current {
+  color: var(--blue_title_color);
 }
