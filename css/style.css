@@ -30,11 +30,15 @@ header {
 }
 
 .back_pic {
-  background: rgba(47, 48, 58, 0.8);
-  background: url(../img/headpic.jpg);
+  
+  background-image: url(../img/headpic.jpg);
+  
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 ul {
@@ -116,6 +120,16 @@ ul {
   margin-right: 30px;
   font-style: normal;
   letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+}
+.link_header::before {
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 11.2px;
+  margin-right: 10px;
+  background-image: url("../img/envelope.png");
 }
 .link_header:hover,
 .link_header:focus {
@@ -125,8 +139,18 @@ ul {
 .link_number {
   color: var(--gray_title_color);
   text-decoration: none;
+  display: inline-flex;
   font-style: normal;
   letter-spacing: 0.02em;
+  align-items: center;
+}
+.link_number::before {
+  display: inline-block;
+  content: "";
+  width: 10px;
+  height: 14.94px;
+  margin-right: 10px;
+  background-image: url("../img/Vector.png");
 }
 .link_number:hover,
 .link_number:focus {
@@ -157,6 +181,7 @@ ul {
 }
 
 .telegram_button {
+  display: inline-flex;
   font-weight: 900;
   font-style: normal;
   text-decoration: none;
@@ -166,11 +191,21 @@ ul {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 29px;
-  padding-right: 62px;
+  padding-right: 28px;
   background: var(--blue_title_color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   align-self: center;
+  align-items: center;
+}
+.telegram_button::after{
+  display: inline-block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  
+  background-image: url("../img/iconsend.png");
 }
 
 .telegram_button:focus {
