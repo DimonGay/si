@@ -1,5 +1,6 @@
 /** 
-  
+ https://icomoon.io/app/#/select 
+
 **/
 :root {
   --primary_title_color: #212121;
@@ -495,6 +496,21 @@ address {
 
 .command_item:last-child {
   margin-right: 0;
+}
+
+.svg_social {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+  padding: 12px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.svg_social:hover {
+  padding: 12px;
+  background-color: red;
+  border-radius: 50%;
 }
 
 .buisness_item {
