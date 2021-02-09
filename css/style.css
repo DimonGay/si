@@ -499,18 +499,22 @@ address {
 }
 
 .svg_social {
-  width: 20px;
-  height: 20px;
-  fill: #afb1b8;
-  padding: 12px;
-  background-color: red;
-  border-radius: 50%;
+  fill: currentColor;
+  margin: 12px;
 }
 
-.svg_social:hover {
-  padding: 12px;
-  background-color: red;
+.svg_link {
+  display: flex;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
+  overflow: hidden;
+  color: #afb1b8;
+}
+
+.svg_link:hover {
+  color: #fff;
+  background: var(--blue_title_color);
 }
 
 .buisness_item {
