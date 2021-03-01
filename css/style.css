@@ -1,6 +1,5 @@
 /** 
  https://icomoon.io/app/#/select 
-
 **/
 :root {
   --primary_title_color: #212121;
@@ -517,6 +516,12 @@ address {
 .svg_link_1 {
   display: flex;
   height: 90px;
+  color: #afb1b8;
+
+}
+.svg_link_1:hover{
+  color:#fff;
+  background: var(--blue_title_color);
 }
 
 .svg_link {
@@ -601,6 +606,19 @@ address {
 
 .footer_soc_item:last-child {
   margin-right: 0;
+}
+.svg_link_footer{
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.svg_link_footer:hover{
+  background: var(--blue_title_color);
+  
 }
 
 .footer_flex {
