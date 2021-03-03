@@ -482,15 +482,18 @@ address {
   margin-bottom: 94px;
 }
 
-.command_item {
-  width: calc((100% - 33px) / 4);
-  margin-right: 0;
-  margin-bottom: 24px;
+.k123_command {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  margin-left: 30px;
   margin-top: 16px;
+  margin-bottom: 24px;
 }
 
-.command_item:first-child {
-  margin-left: 32px;
+.command_item {
+  margin-right: 0;
+  margin-right: 11px;
 }
 
 .command_item:last-child {
@@ -517,11 +520,10 @@ address {
   display: flex;
   height: 90px;
   color: #afb1b8;
-
 }
-.svg_link_1:hover{
-  color:#fff;
-  background: var(--blue_title_color);
+.svg_link_1:hover {
+  color: var(--blue_title_color);
+  border: 1px solid #2196f3;
 }
 
 .svg_link {
@@ -607,7 +609,7 @@ address {
 .footer_soc_item:last-child {
   margin-right: 0;
 }
-.svg_link_footer{
+.svg_link_footer {
   display: flex;
   background: rgba(255, 255, 255, 0.1);
   width: 44px;
@@ -616,9 +618,8 @@ address {
   overflow: hidden;
 }
 
-.svg_link_footer:hover{
+.svg_link_footer:hover {
   background: var(--blue_title_color);
-  
 }
 
 .footer_flex {
